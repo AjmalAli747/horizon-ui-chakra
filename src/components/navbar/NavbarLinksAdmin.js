@@ -170,11 +170,7 @@ export default function HeaderLinks(props) {
           maxW={{ base: "360px", md: "unset" }}>
           <Image src={navImage} borderRadius='16px' mb='28px' />
           <Flex flexDirection='column'>
-            <Link w='100%' href='https://horizon-ui.com/pro'>
-              <Button w='100%' h='44px' mb='10px' variant='brand'>
-                Buy Horizon UI PRO
-              </Button>
-            </Link>
+            
             <Link
               w='100%'
               href='https://horizon-ui.com/documentation/docs/introduction'>
